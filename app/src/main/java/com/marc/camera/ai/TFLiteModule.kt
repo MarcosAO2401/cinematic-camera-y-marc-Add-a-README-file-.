@@ -1,1 +1,1 @@
-package com.marc.camera.ai\nobject TFLiteModule
+package com.marc.camera.ai\nimport android.content.Context\nimport android.graphics.Bitmap\nobject TFLiteModule {\nprivate var interpreter: Any? = null\nfun load(ctx: Context) {\ntry {\nval assetFD = ctx.assets.openFd("model.tflite")\ninterpreter = assetFD\n} catch(e: Exception) { e.printStackTrace() }\n}\nfun isLoaded() = interpreter != null\n}
