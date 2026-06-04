@@ -1,0 +1,1 @@
+package com.marc.camera.camera\nimport androidx.camera.core.*\nimport androidx.camera.lifecycle.ProcessCameraProvider\nimport androidx.lifecycle.LifecycleOwner\nobject CameraModule {\nfun bind(provider: ProcessCameraProvider, owner: LifecycleOwner, preview: Preview) {\nprovider.unbindAll()\nprovider.bindToLifecycle(owner, CameraSelector.DEFAULT_BACK_CAMERA, preview)\n}\n}
