@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.marc.camera.app-merged_res-25:/raw_cyberpunk.glsl.flat",
+        "source": "com.marc.camera.app-main-27:/raw/cyberpunk.glsl"
+    },
+    {
+        "merged": "com.marc.camera.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "com.marc.camera.app-main-27:/layout/activity_main.xml"
+    }
+]

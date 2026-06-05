@@ -1,0 +1,1 @@
+precision mediump float;\nuniform sampler2D uTexture;\nuniform float uTime;\nvarying vec2 vTexCoord;\nvoid main(){\nvec4 c=texture2D(uTexture,vTexCoord);\nfloat scan=sin(vTexCoord.y*800.0+uTime)*0.04;\ngl_FragColor=vec4(c.r*0.3+scan,c.g*0.9,c.b*1.8+scan,1.0);}

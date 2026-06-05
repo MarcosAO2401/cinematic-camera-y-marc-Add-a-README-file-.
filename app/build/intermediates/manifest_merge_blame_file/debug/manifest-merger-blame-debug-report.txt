@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.marc.camera"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:134-193
+11-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:151-191
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:193-258
+12-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:210-256
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.marc.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.marc.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:258-578
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/d3f0f6430d3d48e1e07a3ad5fa36812f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:label="CineCamera"
+24-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:271-297
+25        android:theme="@style/Theme.AppCompat.NoActionBar" >
+25-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:298-348
+26        <activity
+26-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:349-564
+27            android:name="com.marc.camera.MainActivity"
+27-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:359-387
+28            android:exported="true" >
+28-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:388-411
+29            <intent-filter>
+29-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:412-553
+30                <action android:name="android.intent.action.MAIN" />
+30-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:427-478
+30-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:435-476
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:478-537
+32-->/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/AndroidManifest.xml:1:488-535
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:24:9-33:19
+37            android:name="androidx.camera.core.impl.MetadataHolderService"
+37-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:25:13-75
+38            android:enabled="false"
+38-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:26:13-36
+39            android:exported="false" >
+39-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:27:13-37
+40            <meta-data
+40-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:30:13-32:89
+41                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+41-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:31:17-103
+42                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+42-->[androidx.camera:camera-camera2:1.3.0] /home/codespace/.gradle/caches/transforms-3/e3140b92ac9e340fca21cafd6acf28de/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:32:17-86
+43        </service>
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+47            android:authorities="com.marc.camera.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/87c64bae56ec41b682a029d0c3869d5a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/c6d398ec6ce619bfe3b47cf66b867271/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/c6d398ec6ce619bfe3b47cf66b867271/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/c6d398ec6ce619bfe3b47cf66b867271/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

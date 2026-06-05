@@ -4,6 +4,7 @@ plugins {
 }
 android {
     compileSdk 34
+    namespace "com.marc.camera"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17

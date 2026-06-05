@@ -1,0 +1,7 @@
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/recording/HEVCModule.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/shaders/ShaderModule.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/recording/FallbackModule.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/MainActivity.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/camera/CameraModule.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/ai/MediaPipeModule.kt
+/workspaces/cinematic-camera-y-marc-Add-a-README-file-./app/src/main/java/com/marc/camera/ai/TFLiteModule.kt
