@@ -10,6 +10,9 @@ android {
     }
     kotlinOptions { jvmTarget = "17" }
     defaultConfig {
+        namespace "com.marc.camera"
+        namespace "com.marc.camera"
+        namespace "com.marc.camera"
         applicationId "com.marc.camera"
         minSdk 26
         targetSdk 34
