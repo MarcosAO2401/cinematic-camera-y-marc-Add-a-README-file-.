@@ -1,2 +1,5 @@
 package com.marc.camera.recording
-object FallbackModule
+object FallbackModule {
+    fun record() {}
+    fun stop() {}
+}
