@@ -1,5 +1,6 @@
 package com.marc.camera.camera
 object CameraModule {
-    fun start() {}
-    fun stop() {}
+    var isRunning = false
+    fun start() { isRunning = true }
+    fun stop() { isRunning = false }
 }

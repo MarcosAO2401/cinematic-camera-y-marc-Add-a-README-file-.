@@ -1,8 +1,6 @@
 package com.marc.camera.shaders
-
 import android.content.Context
 import android.opengl.GLES30
-
 object ShaderModule {
     fun loadShader(type: Int, source: String): Int {
         val shader = GLES30.glCreateShader(type)
@@ -19,7 +17,6 @@ object ShaderModule {
         GLES30.glLinkProgram(program)
         return program
     }
-    fun loadShaderFromAssets(context: Context, filename: String): String {
-        return context.assets.open(filename).bufferedReader().readText()
-    }
+    fun loadFromAssets(context: Context, filename: String): String =
+        context.assets.open(filename).bufferedReader().readText()
 }
