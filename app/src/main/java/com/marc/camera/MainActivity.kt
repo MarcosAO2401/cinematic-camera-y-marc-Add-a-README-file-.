@@ -1,32 +1,11 @@
-package com.marc.camera.shaders
+package com.marc.camera
 
-import android.content.Context
-import android.opengl.GLES30
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
-object ShaderModule {
-            fun loadShader(type: Int, source: String): Int {
-                        val shader = GLES30.glCreateShader(type)
-                                GLES30.glShaderSource(shader, source)
-                                        GLES30.glCompileShader(shader)
-                                                return shader
-            }
-
-                fun createProgram(vertSrc: String, fragSrc: String): Int {
-                                val vert = loadShader(GLES30.GL_VERTEX_SHADER, vertSrc)
-                                        val frag = loadShader(GLES30.GL_FRAGMENT_SHADER, fragSrc)
-                                                val program = GLES30.glCreateProgram()
-                                                        GLES30.glAttachShader(program, vert)
-                                                                GLES30.glAttachShader(program, frag)
-                                                                        GLES30.glLinkProgram(program)
-                                                                                return program
-                }
-
-                    fun loadShaderFromAssets(context: Context, filename: String): String {
-                                return context.assets.open(filename).bufferedReader().readText()
-                    }
-}
-
-                    }
-                }
-            }
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(s: Bundle?) {
+        super.onCreate(s)
+        setContentView(R.layout.activity_main)
+    }
 }
