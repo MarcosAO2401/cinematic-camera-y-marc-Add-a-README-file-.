@@ -1,1 +1,2 @@
-package com.marc.camera.ai\nobject MediaPipeModule
+package com.marc.camera.ai
+object MediaPipeModule

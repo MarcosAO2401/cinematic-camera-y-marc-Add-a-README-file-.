@@ -1,1 +1,8 @@
-package com.marc.camera.shaders\nimport android.content.Context\nimport android.opengl.GLES20\nobject ShaderModule {\nfun loadShader(type: Int, code: String): Int {\nval shader = GLES20.glCreateShader(type)\nGLES20.glShaderSource(shader, code)\nGLES20.glCompileShader(shader)\nreturn shader\n}\nfun readGLSL(ctx: Context): String {\nreturn ctx.resources.openRawResource(com.marc.camera.R.raw.cyberpunk).bufferedReader().readText()\n}\n}
+package com.marc.camera.shaders
+import android.content.Context
+import android.opengl.GLES30
+object ShaderModule {
+fun loadShader(type: Int, source: String): Int {
+val shader = GLES30.glCreateShader(type)
+GLES30.glShaderSource(shader, source)
+GLES30.glCompileShader(shader)

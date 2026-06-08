@@ -1,1 +1,2 @@
-package com.marc.camera.recording\nobject FallbackModule
+package com.marc.camera.recording
+object FallbackModule

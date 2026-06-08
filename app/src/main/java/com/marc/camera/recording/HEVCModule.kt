@@ -1,1 +1,10 @@
-package com.marc.camera.recording\nimport android.content.Context\nimport androidx.camera.video.*\nimport androidx.core.content.ContextCompat\nobject HEVCModule {\nfun buildRecorder(ctx: Context): VideoCapture<Recorder> {\nval recorder = Recorder.Builder().setQualitySelector(QualitySelector.from(Quality.HD)).build()\nreturn VideoCapture.withOutput(recorder)\n}\n}
+package com.marc.camera.recording
+import android.content.Context
+import androidx.camera.video.*
+import androidx.core.content.ContextCompat
+object HEVCModule {
+fun buildRecorder(ctx: Context): VideoCapture<Recorder> {
+val recorder = Recorder.Builder().setQualitySelector(QualitySelector.from(Quality.HD)).build()
+return VideoCapture.withOutput(recorder)
+}
+}
